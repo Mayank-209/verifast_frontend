@@ -9,7 +9,8 @@ import { Button } from "../components/ui/button"
 import { Trash2, History, X } from "lucide-react"
 
 export default function Home() {
-  const uri=process.env.BACKEND_URL
+  const uri=process.env.REACT_APP_BACKEND_URL
+  console.log(uri)
   const [messages, setMessages] = useState([])
   const [sessionId, setSessionId] = useState(uuidv4())
   const [showHistory, setShowHistory] = useState(false)
