@@ -32,7 +32,7 @@ npm install
 ```
 
 ### 3. Set up environment variables
-###Create a .env file in the root and define:
+Create a .env file in the root and define:
 ```
 REACT_APP_BACKEND_URL=http://<your-backend-ip>:8000
 ```
